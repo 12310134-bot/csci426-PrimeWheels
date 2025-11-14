@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Site background image - place your image at public/assets/backgrounf/background.jpg
+   Note: using %PUBLIC_URL% prevents the CSS loader from trying to resolve the file at build time.
+   If you placed the image in public/assets/backgrounf, the URL below will work at runtime. */
+body {
+  /* fallback page color */
+  background-color: #E9F1F7;
+  /* overlay only - image will be applied at runtime from index.js to avoid css-loader resolution */
+  background-image: linear-gradient(rgba(0,0,0,0.04), rgba(0,0,0,0.04));
+  background-size: auto;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+/* Optional: reduce visual noise for very bright images by applying a subtle overlay on the root container */
+#root::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: rgba(249, 249, 249, 0.00);
+}
+
+/* Brand names on Home page: white and bold for visibility against the background */
+.brand-name {
+  color: #ffffff;
+  font-weight: 700;
+}
