@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# PrimeWheels - Car Dealership
+#contributers: Mohammad noamani - Bishr Abdulkhalek
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CSCI426 Advanced Web Programming Project
 
-## Available Scripts
+## Project Description
+PrimeWheels is a modern car dealership website built with React that allows users to browse our premium vehicle inventory, view detailed car specifications, and contact us for inquiries. The platform features a dynamic car inventory, fully responsive design that works seamlessly on both desktop and mobile devices, and a customer inquiry system for easy communication.
 
-In the project directory, you can run:
+## Live Demo
+https://resplendent-florentine-e60ddf.netlify.app/
 
-### `npm start`
+## Setup Instructions
+```bash
+# Clone the repository
+git clone https://github.com/12310134-bot/csci426-PrimeWheels.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Navigate to project directory
+cd csci426-PrimeWheels
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Install dependencies
+npm install
 
-### `npm test`
+# Start the development server
+npm start
+Screenshots
+Home Page
+https://raw.githubusercontent.com/12310134-bot/csci426-PrimeWheels/4e556d595055f5f89733dae688b499696bce01cd/home%25201.png
+https://raw.githubusercontent.com/12310134-bot/csci426-PrimeWheels/4e556d595055f5f89733dae688b499696bce01cd/home%25202.png
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Car Inventory
+https://raw.githubusercontent.com/12310134-bot/csci426-PrimeWheels/4e556d595055f5f89733dae688b499696bce01cd/inventory.png
 
-### `npm run build`
+Admin Dashboard
+https://raw.githubusercontent.com/12310134-bot/csci426-PrimeWheels/4e556d595055f5f89733dae688b499696bce01cd/admin.png
+https://raw.githubusercontent.com/12310134-bot/csci426-PrimeWheels/4e556d595055f5f89733dae688b499696bce01cd/admin%2520dashboard.png
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Technologies Used
+ReactJS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Tailwind CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Git & GitHub
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Netlify (Deployment)
